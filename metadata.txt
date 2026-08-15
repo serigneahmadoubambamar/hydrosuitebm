@@ -1,7 +1,7 @@
 [general]
 name=HydroSuiteBM Pro
 qgisMinimumVersion=3.16
-description=Hydrological Analysis Platform for QGIS — délimitation de bassins versants, calcul de leurs paramètres, temps de concentration (dont SCS-CN avec Assistant CN intégré), rapport PDF et export CSV.
+description=Hydrological Analysis Platform for QGIS — automatic watershed delineation, geometric/altimetric/hydrographic parameter calculation, time of concentration (including SCS-CN with integrated CN Assistant), PDF report and CSV export.
 version=1.2
 author=Serigne Ahmadou Bamba Mar
 email=serigneahmadoubamba.mar@gmail.com
