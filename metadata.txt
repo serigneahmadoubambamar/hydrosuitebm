@@ -1,0 +1,18 @@
+[general]
+name=HydroSuiteBM Pro
+qgisMinimumVersion=3.16
+description=Hydrological Analysis Platform for QGIS — délimitation de bassins versants, calcul de leurs paramètres, temps de concentration (dont SCS-CN avec Assistant CN intégré), rapport PDF et export CSV.
+version=1.2
+author=Serigne Ahmadou Bamba Mar
+email=serigneahmadoubamba.mar@gmail.com
+about=HydroSuiteBM Pro délimite automatiquement un ou plusieurs bassins versants à partir d'un MNT (mode manuel par points exutoires, ou mode automatique découpant tout le MNT en sous-bassins), puis calcule leurs paramètres caractéristiques : géométrie (surface, périmètre, indice de compacité de Gravelius, rectangle équivalent), altimétrie (altitudes, courbe et intégrale hypsométrique, pente moyenne), réseau hydrographique (ordre de Strahler, densité de drainage, rapports de Horton), et temps de concentration selon cinq méthodes (Kirpich, Giandotti, Passini, Ventura, SCS/NRCS avec Curve Number). Un Assistant CN intégré permet de construire le raster Curve Number à partir de vos propres couches locales d'occupation du sol et de groupe hydrologique de sol (plutôt que de dépendre d'un jeu de données mondial automatique, de fiabilité variable selon les régions). Édition complète : génère un rapport PDF méthodologique et interprétatif (formules, domaines de validité, interprétation morphométrique automatique) et un export CSV des résultats, en plus des exports Shapefile (bassins et réseaux hydrographiques regroupés en une couche unique numérotée).
+tracker=https://github.com/serigneahmadoubambamar/hydrosuitebm/issues
+repository=https://github.com/serigneahmadoubambamar/hydrosuitebm
+tags=hydrology,watershed,bassin versant,DEM,MNT,morphometry,drainage,hydrography,curve number,SCS,time of concentration,GRASS
+homepage=https://github.com/serigneahmadoubambamar/hydrosuitebm
+category=Analysis
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=no
